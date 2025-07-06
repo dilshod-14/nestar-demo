@@ -5,12 +5,12 @@ import styles from "@/styles/Home.module.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
-  subsets: ["latin"],
+  subsets: ["latin"]
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
-  subsets: ["latin"],
+  subsets: ["latin"]
 });
 
 export default function Home() {
@@ -26,21 +26,13 @@ export default function Home() {
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <main className={styles.main}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js logo"
-            width={180}
-            height={38}
-            priority
-          />
+          Hello World Hello MIT
           <ol>
             <li>
               Get started by editing <code>pages/index.tsx</code>.
             </li>
             <li>Save and see your changes instantly.</li>
           </ol>
-
           <div className={styles.ctas}>
             <a
               className={styles.primary}
